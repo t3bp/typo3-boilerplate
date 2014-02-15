@@ -1,2 +1,34 @@
-/fileadmin/styles/sitename/intermediate/
-/fileadmin/styles/sitename/publish/
+# system files
+*Thumbs.db
+*DS_Store
+
+# node and Sass folders
+*node_modules
+*sass-cache
+
+# editor files
+*.sublime-workspace
+.buildpath
+.project
+.settings/
+
+# optimized images
+fileadmin/styles/sitename/img
+
+# bower libs
+fileadmin/styles/sitename/dev/libs
+
+# TYPO3 files and folders
+fileadmin/_temp_
+t3lib/
+typo3/
+typo3_src/
+typo3temp/
+uploads/
+index.php
+
+typo3conf/l10n
+typo3conf/temp_*
+typo3conf/deprecation_*
+typo3conf/extTables.php
+typo3conf/ENABLE_INSTALL_TOOL
